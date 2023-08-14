@@ -1,4 +1,4 @@
-import { Title } from "./styled";
+import { Title, MarginContainer } from "./styled";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import ItemCard from "../../components/ItemCard/ItemCard";
@@ -38,7 +38,7 @@ export default function HomePage() {
           />
         ))
       )}
-
+      <MarginContainer />
       <Footer />
     </>
   );

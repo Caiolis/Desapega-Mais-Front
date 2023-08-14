@@ -6,3 +6,7 @@ export const Title = styled.h1`
   font-weight: 500;
   color: #000;
 `;
+
+export const MarginContainer = styled.div`
+  margin-top: 70px;
+`;
