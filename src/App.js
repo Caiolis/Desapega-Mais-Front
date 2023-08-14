@@ -5,12 +5,11 @@ import LoginPage from "./pages/LoginPage/LoginPage";
 import SignupPage from "./pages/SignupPage/SignupPage.js";
 import HomePage from "./pages/HomePage/HomePage";
 import ProductDetailsPage from "./pages/ProductDetailsPage/ProductDetailsPage";
+import MyInfoPage from "./pages/MyInfoPage/MyInfoPage";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AuthContext from "./contexts/AuthContext";
 import { useState } from "react";
-
-
 
 
 export default function App() {
@@ -27,6 +26,7 @@ export default function App() {
             <Route path="/login" element={<LoginPage />}/>
             <Route path="/signup" element={<SignupPage />}/>
             <Route path="/home" element={<HomePage />}/>
+            <Route path="/myinfo" element={<MyInfoPage />}/>
             <Route path="/products/:idProduct" element={<ProductDetailsPage />}/>
           </Routes>
         </BrowserRouter>

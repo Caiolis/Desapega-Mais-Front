@@ -17,7 +17,7 @@ export default function Footer() {
       </SubContainer>
       <AddProductModal />
       <SubContainer textAlign={"end"}>
-        <Link to={"/home"}>
+        <Link to={"/myinfo"}>
           <BiSolidUser color="rgba(255, 255, 255, 55)" size={30}/>
         </Link>
       </SubContainer>

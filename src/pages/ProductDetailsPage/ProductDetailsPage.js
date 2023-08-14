@@ -22,7 +22,7 @@ export default function ProductDetailsPage() {
     if (!token) navigate("/");
   }, []);
   useEffect(() => {
-    const promisse = axios.get(`http://localhost:5000/product/6`);
+    const promisse = axios.get(`${GET_SPECIFIC_PRODUCT}${idProduct}`);
     promisse.then(response => setData(response.data));
     promisse.catch(err => console.error(err));
   }, []);
