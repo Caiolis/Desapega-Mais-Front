@@ -1,4 +1,4 @@
-const base = 'http://localhost:5000'
+const base = 'https://desapegamais-api-sql.onrender.com'
 
 export const SIGN_UP = `${base}/signup`;
 export const SIGN_IN = `${base}/signin`;
