@@ -2,6 +2,8 @@ import { useNavigate, useParams } from "react-router-dom";
 import { Container, ImageContainer, InformationContainer, ProductTitle, InlineContainer, Subtitle, Description, AdditionalInformation, AdditionalInformationText } from "./styled";
 import { AiFillPhone } from "react-icons/ai"
 import { MdAlternateEmail } from "react-icons/md";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
 
 import React from "react";
 import { useContext, useEffect, useState } from "react";
@@ -29,7 +31,9 @@ export default function ProductDetailsPage() {
 
   return (
     data === undefined ? "Loading" : 
-    <Container>
+    <>
+    <Header/>
+      <Container>
     <ImageContainer>
       <img src={data.photo_url} />
     </ImageContainer> 
@@ -56,5 +60,8 @@ export default function ProductDetailsPage() {
       </InlineContainer>
     </InformationContainer>
     </Container>
+    <Footer />
+    </>
+    
   );
 };

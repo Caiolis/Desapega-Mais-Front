@@ -20,7 +20,6 @@ export const ImageContainer = styled.div`
 
 export const InformationContainer = styled.div`
   width: 100%;
-  background-color: #F9F9F9;
   padding: 20px;
 `;
 
