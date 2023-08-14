@@ -6,7 +6,7 @@ export const Container = styled.div`
 
 export const ImageContainer = styled.div`
   width: 100%;
-  background-color: #FFF;
+  background-color: #fff;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -33,11 +33,11 @@ export const ProductTitle = styled.h1`
   font-family: Poppins;
   font-size: 24px;
   font-weight: 600;
-  color: #49AFBB;
+  color: #49afbb;
   span {
     font-size: 15px;
     font-weight: 500;
-    color: #000
+    color: #000;
   }
 `;
 
